@@ -7,3 +7,5 @@ Kökuritið hvarf alltaf ef ég reyndi að importa aðferðinni til þess að up
 Þetta er byrjunin á gæluverkefni sem ég ætla svo að dunda mér að í jólafríinu, vildi koma functioninu(real-time price og kökurit) í gang áður en ég pældi í forminu þannig náttúrulega vantar mikið upp á css-ið.
 
 Gervigreind var notuð það mikið að það tók því varla að skrifa það sérstaklega þegar það var gert.
+
+TwelveAPI takmarkar hversu oft má kalla á hann(8 á mínútu og ég er stundum að nota aðganginn sjálfur), hafa það í huga.
