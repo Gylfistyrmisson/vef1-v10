@@ -1,0 +1,44 @@
+// src/sass/main.scss
+$primary-color: #3498db;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+main {
+    display: flex;             // Use flexbox for the list
+}
+
+#stocks {
+    background-color: plum;
+    display: flex;             // Use flexbox for the list
+    flex-direction: column;    // Stack the .stock items vertically
+    align-items: flex-end;     // Align all list items to the right
+    list-style-type: none;     // Remove default list bullets
+    padding: 0;                // Remove default padding
+    
+    .stock {
+      display: flex;           // Make each stock item a flex container
+      align-items: center;     // Vertically center the items
+      justify-content: center; // Align the content to the right within each .stock
+      margin-bottom: 10px;      // Space between each stock item
+      width: 100%;              // Ensure the stock items take the full width of the container
+  
+      .ticker,
+      .quantity,
+      .price {
+        margin: 0 10px;         // Add some space between elements
+      }
+  
+      .quantity {
+        width: 60px;           // Set a fixed width for the quantity input
+        text-align: center;     // Center the text inside the input
+      }
+  
+      .price {
+        font-weight: bold;      // Make the price stand out
+      }
+    }
+  }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="dist/css/main.css"> 
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mag7 Portfolio Tool</h1>
+    </header>
+
+    <main>
+        <body>
+            <section id="home">
+                <div id="pie-chart"></div>
+            </section>
+            <section>
+                <h2>Holdings</h2>
+                <ul id="stocks">
+                    <li class="stock">
+                        <p class="ticker" id="AAPL">AAPL</p>
+                        <input type="text" class="quantity" value="0">
+                        <p class="price">220</p>
+                    </li>
+                    <li class="stock">
+                        <p class="ticker" id="MSTF">MSFT</p>
+                        <input type="text" class="quantity" value="0">
+                        <p class="price">420</p>
+                    </li>
+                    <li class="stock">
+                        <p class="ticker" id="AMZN">AMZN</p>
+                        <input type="text" class="quantity" value="0">
+                        <p class="price">200</p>
+                    </li>
+                    <li class="stock">
+                        <p class="ticker" id="GOOG">GOOG</p>
+                        <input type="text" class="quantity" value="0" >
+                        <p class="price">180</p>
+                    </li>
+                    <li class="stock">
+                        <p class="ticker" id="META">META</p>
+                        <input type="text" class="quantity" value="0" >
+                        <p class="price">580</p>
+                    </li>
+                    <li class="stock">
+                        <p class="ticker" id="TSLA">TSLA</p>
+                        <input type="text" class="quantity" value="0" >
+                        <p class="price">350</p>
+                    </li>
+                    <li class="stock">
+                        <p class="ticker" id="NVDA">NVDA</p>
+                        <input type="text" class="quantity" value="0" >
+                        <p class="price">150</p>
+                    </li>
+                </ul>
+                <section id="cashPostition">
+                    <h3>Cash: </h3>
+                    <p><span id="cash">1000000</span>$</p>
+                </section>
+            </section>
+            <script type="module" src="src/stockprice.js" defer></script>
+            <script type="module" src="src/main.js" defer></script>
+            <script type="module" src="src/updatePie.js" defer></script>
+        </body>    
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>

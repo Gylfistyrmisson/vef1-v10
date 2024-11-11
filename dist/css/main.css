@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: aquamarine;
+  align-items: center;
+}
+
+main {
+  display: flex;
+}
+
+#stocks {
+  background-color: plum;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style-type: none;
+  padding: 0;
+}
+#stocks .stock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#stocks .stock .ticker,
+#stocks .stock .quantity,
+#stocks .stock .price {
+  margin: 0 10px;
+}
+#stocks .stock .quantity {
+  width: 60px;
+  text-align: center;
+}
+#stocks .stock .price {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=main.css.map */
