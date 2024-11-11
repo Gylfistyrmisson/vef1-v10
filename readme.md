@@ -5,3 +5,5 @@ Markmiðið var að búa til síðu sem fylgist með rauntímavirði á "magnifi
 Kökuritið hvarf alltaf ef ég reyndi að importa aðferðinni til þess að uppfæra verðið (stockprice.js), það var eitthvað vesen með að javascript fann ekki 'axios' sama hvað ég reyndi, en það er hægt að leika sér með það með node.js samt.
 
 Þetta er byrjunin á gæluverkefni sem ég ætla svo að dunda mér að í jólafríinu, vildi koma functioninu(real-time price og kökurit) í gang áður en ég pældi í forminu þannig náttúrulega vantar mikið upp á css-ið.
+
+Gervigreind var notuð það mikið að það tók því varla að skrifa það sérstaklega þegar það var gert.
